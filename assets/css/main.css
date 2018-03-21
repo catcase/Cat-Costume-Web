@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-img, embed,
-object, video {
-  max-width: 100%
-}
-
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -72,6 +67,7 @@ object, video {
   padding-left: 30px;
   padding-right: 30px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .box1 h2 {
@@ -225,9 +221,53 @@ object, video {
 }
 
 /* On devices wider than 660px */
-@media(min-width: 660px) {
+@media(max-width: 885px) {
+  .main h1 {
+    font-size: 1.5em;
+  }
+.mainh3 h3 {
+   display: block;
+   width: 280px;
+   margin: auto;
+   font-weight: normal;
+ }
+ .box1 {
+   display: block;
+   margin: auto;
+   padding-top: 20px;
+ }
+ .box2 {
+   display: block;
+   margin: auto;
+   padding-top: 20px;
+ }
+ .img1 {
+   display: none;
+ }
+ .img2 {
+   display: none;
+ }
+ .git {
+   background-color: #ffffff;
+ }
+ .git h1 {
+   display: none;
+ }
+ .business {
+   display: block;
+   margin: auto;
+   background-color: #eeeeee;
+ }
+ .contact {
+   display: block;
+   margin: auto;
+   background-color:  #eeeeee;
+ }
 }
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media(max-width: 475px) {
+  .nav li a {
+    display: none;
+  }
 }
