@@ -31,9 +31,25 @@ body {
     text-decoration: none;
 }
 
-.img {
+.webimg {
   max-width: 100%;
   margin-bottom: 40px;
+}
+
+.resimg1 {
+  display: none;
+}
+
+.resimg2 {
+  display: none;
+}
+
+.mobile1 {
+  display: none;
+}
+
+.mobile2 {
+  display: none;
 }
 
 .main {
@@ -222,55 +238,119 @@ body {
 
 /* On devices wider than 660px */
 @media(max-width: 885px) {
-  .main h1 {
-    font-size: 1.5em;
-  }
+
+.main h1 {
+  font-size: 1.5em;
+}
+
+.webimg {
+  display: none;
+}
+
+.resimg1 {
+  display: block;
+  max-width: 100%;
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+.resimg2 {
+  display: block;
+  position: absolute;
+  left: 330px;
+  top: 73px;
+  width: 210px;
+  height: 260px;
+}
+
 .mainh3 h3 {
    display: block;
    width: 280px;
    margin: auto;
    font-weight: normal;
- }
- .box1 {
+}
+
+.box1 {
    display: block;
    margin: auto;
    padding-top: 20px;
- }
- .box2 {
+}
+
+.box2 {
    display: block;
    margin: auto;
    padding-top: 20px;
- }
- .img1 {
+}
+
+.img1 {
    display: none;
- }
- .img2 {
+}
+
+.img2 {
    display: none;
- }
- .git {
+}
+
+.git {
    background-color: #ffffff;
- }
- .git h1 {
+}
+
+.git h1 {
    display: none;
- }
- .business {
+}
+
+.business {
    display: block;
    margin: auto;
    background-color: #eeeeee;
- }
- .contact {
+}
+
+.contact {
    display: block;
    margin: auto;
    background-color:  #eeeeee;
+ }
+
+.map {
+  display: block;
+  width: 310px;
+  height: 100px;
+  margin: auto;
+}
+
+.footer {
+  display: block;
+  width: 310px;
+  margin: auto;
  }
 }
 
 /* On devices wider than 940px */
 @media(max-width: 475px) {
-  .nav li a {
+
+.nav li a {
     display: none;
-  }
-  .nav li h1 {
+}
+
+.nav li h1 {
     padding-left: 150px;
-  }
+}
+
+.resimg1 {
+  display: none;
+}
+
+.resimg2 {
+  display: none;
+}
+
+.mobile1 {
+  display: block;
+}
+
+.mobile2 {
+  display: block;
+  position: absolute;
+  top: 78px;
+  left: 120px;
+ }
 }
