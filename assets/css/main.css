@@ -33,6 +33,7 @@ body {
 }
 
 .webimg {
+  width: 100vw;
   max-width: 100%;
   margin-bottom: 40px;
 }
@@ -222,8 +223,9 @@ body {
 }
 
 .map {
-  width: 98.5vw;
-  max-width: 200%;
+  height: 450px;
+  width: 99vw;
+  max-width: 100%;
 }
 
 .footer {
@@ -253,18 +255,18 @@ body {
 
 .resimg1 {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: 270px;
-  margin-bottom: 40px;
 }
 
 .resimg2 {
   display: block;
   position: absolute;
-  left: 330px;
-  top: 73px;
-  width: 210px;
-  height: 260px;
+  height: 270px;
+  left: 43%;
+  margin-left: -43px;
+  top: 8%;
+  margin-top: -8px;
 }
 
 .mainh3 h3 {
@@ -333,8 +335,6 @@ body {
 
 .footer {
   display: block;
-  width: 100%;
-  margin: auto;
  }
 }
 
@@ -346,7 +346,8 @@ body {
 }
 
 .nav li h1 {
-    padding-left: 150px;
+  padding: 0;
+  margin-left: 155px;
 }
 
 .resimg1 {
@@ -364,7 +365,9 @@ body {
 .mobile2 {
   display: block;
   position: absolute;
-  top: 78px;
-  left: 120px;
+  left: 35%;
+  margin-left: -35px;
+  top: 10%;
+  margin-top: -10px;
  }
 }
